@@ -1,4 +1,6 @@
 Code for the paper "Predicting multiple sclerosis disease progression with multimodal deep neural networks"
 
-1. Use "3D_classification-*" to process the MRI sequences and generate the embeddings
-2. Use "Main-MSproject-
+1. Use "3D_classification-*.ipynb" to process the MRI sequences and generate the embeddings
+2. Use "/main-MSProject-UseMedEmbedding.ipynb" to process clinical notes and generate the embeddings
+3. Use "1. prepare_For_DBNet.ipynb" to process the MRI embeddings, notes embeddings, labs, vitals, medications, demographics into the correct input format of the prediction network
+4. Use "2. DBNet-EHRs+Notes.ipynb", "2. DBNet-MRIs+EHRs.ipynb", "2. DBNet-MRIs+notes.ipynb", "2. DBNet-OnlyMRIs.ipynb" to take different combinations of inputs for prediction.
